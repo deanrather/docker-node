@@ -1,0 +1,28 @@
+{
+  "name": "docker-node",
+  "version": "0.0.1",
+  "description": "Wrapper for common noe operations to be performed inside a docker container.",
+  "bin": {
+    "docker-node": "./bin/docker-node.js",
+    "docker-npm":  "./bin/docker-npm.js",
+    "docker-gulp": "./bin/docker-gulp.js",
+    "docker-bash": "./bin/docker-bash.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//deanrather/docker-node.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "docker-node",
+    "docker-npm",
+    "docker-gulp",
+    "docker-bash"
+  ],
+  "author": "Dean Rather <deanrather@gmail.com>",
+  "license": "MIT"
+}
