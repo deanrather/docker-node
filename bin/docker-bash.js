@@ -1,2 +1,3 @@
 #!/usr/bin/env node
-console.log('todo: exec args in container');
+const cli = require('../lib/docker-cli');
+cli.exec('docker-compose exec $serviceName sh -c "$args"');
