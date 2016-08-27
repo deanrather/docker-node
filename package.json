@@ -1,6 +1,6 @@
 {
   "name": "docker-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapper for common noe operations to be performed inside a docker container.",
   "bin": {
     "docker-node": "./bin/docker-node.js",
